@@ -45,6 +45,7 @@ and in /model/user.js
 ```
  /* module.exports=User;*/
  ```
+Comment this out again after the initial run of the program
 * Run npm server.js to run the program
 
 
