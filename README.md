@@ -1,22 +1,26 @@
-# Project Title
+# Shoe-Box
 
-Simple overview of use/purpose.
+My CCAPDEV Machine Project
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Shoe-Box is a shoe store webapp with a login system.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Windows 10
+* Any code editor
+* MongoDB installed
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Download the zip file
+* Run npm install
+```
+npm install
+```
 
 ### Executing program
 
