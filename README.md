@@ -41,7 +41,7 @@ let ladidasShoes = JSON.parse(ladidasData);
 shoe.insertMany(ladidasShoes)  
 console.log(ladidasShoes);*/
 ```
-and in /model/user.js
+and in /model/user.js 
 ```
  /* module.exports=User;*/
  ```
