@@ -24,43 +24,35 @@ npm install
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* (Optional) Initialize your Database by uncommenting the following code in server.js
+ ```
+/*
+const fs = require('fs');
+const shoe = require('./model/user');
+let adidasData = fs.readFileSync('./model/json files/users.json');  
+let adidasShoes = JSON.parse(adidasData);  
+shoe.insertMany(adidasShoes);  
+console.log(adidasShoes); */
 
-## Help
+/*const fs = require('fs');
+const lshoe = require('./model/shoe');
+let ladidasData = fs.readFileSync('./model/json files/shoebox-adidas.json');  
+let ladidasShoes = JSON.parse(ladidasData);  
+shoe.insertMany(ladidasShoes)  
+console.log(ladidasShoes);*/
+```
+and in /model/user.js
+```
+ /* module.exports=User;*/
+ ```
+* Run npm server.js to run the program
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Raphael Andrei  Santillan
 
-## Version History
+Marvin Lam
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
